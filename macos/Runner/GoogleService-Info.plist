@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>843895543109-4ki35bi3nnv0v8q8ogg2l2ahjbsv58v3.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.843895543109-4ki35bi3nnv0v8q8ogg2l2ahjbsv58v3</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAx3BFKuMM2gGVNuNelNkEy0gee9g51IpQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>843895543109</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.musicForYou</string>
+	<key>PROJECT_ID</key>
+	<string>musicforyou-a6205</string>
+	<key>STORAGE_BUCKET</key>
+	<string>musicforyou-a6205.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:843895543109:ios:b1cad9a855c1802fd99a2c</string>
+</dict>
+</plist>

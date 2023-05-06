@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "843895543109",
+    "project_id": "musicforyou-a6205",
+    "storage_bucket": "musicforyou-a6205.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843895543109:android:9196ba6363173819d99a2c",
+        "android_client_info": {
+          "package_name": "com.example.music_for_you"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843895543109-sbafueq38pfil9o1rtctkp5fk0dtap7d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiudQTx72Zgo1XddNDQdaNENh0UbBAtOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843895543109-sbafueq38pfil9o1rtctkp5fk0dtap7d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
