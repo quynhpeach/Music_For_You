@@ -7,14 +7,22 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:843895543109:android:9196ba6363173819d99a2c",
+        "mobilesdk_app_id": "1:843895543109:android:edb9d06cc4f15f1fd99a2c",
         "android_client_info": {
-          "package_name": "com.example.music_for_you"
+          "package_name": "com.android.application"
         }
       },
       "oauth_client": [
         {
-          "client_id": "843895543109-sbafueq38pfil9o1rtctkp5fk0dtap7d.apps.googleusercontent.com",
+          "client_id": "843895543109-rb3lh7j42t7b7h9c8ch5hrqijqe1lrf3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.application",
+            "certificate_hash": "b632f26b4cf13aa001c9384fd9b0160d3cf30e78"
+          }
+        },
+        {
+          "client_id": "843895543109-sgpq73ccslt5ait9dm63bl0b4c99k6op.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -29,6 +37,57 @@
             {
               "client_id": "843895543109-sbafueq38pfil9o1rtctkp5fk0dtap7d.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "843895543109-4ki35bi3nnv0v8q8ogg2l2ahjbsv58v3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.musicForYou"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843895543109:android:9196ba6363173819d99a2c",
+        "android_client_info": {
+          "package_name": "com.example.music_for_you"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843895543109-c7sb9vaa2ssht0b5ikph8k2elumrri64.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.music_for_you",
+            "certificate_hash": "b632f26b4cf13aa001c9384fd9b0160d3cf30e78"
+          }
+        },
+        {
+          "client_id": "843895543109-sgpq73ccslt5ait9dm63bl0b4c99k6op.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCiudQTx72Zgo1XddNDQdaNENh0UbBAtOM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843895543109-sbafueq38pfil9o1rtctkp5fk0dtap7d.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "843895543109-4ki35bi3nnv0v8q8ogg2l2ahjbsv58v3.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.musicForYou"
+              }
             }
           ]
         }

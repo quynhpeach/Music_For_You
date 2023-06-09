@@ -3,6 +3,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:music_for_you/pages/email_password.dart';
+import 'package:music_for_you/pages/home_page.dart';
 import 'package:music_for_you/pages/sign_up.dart';
 import 'package:music_for_you/services/auth_service.dart';
 import 'package:music_for_you/widgets/app_assets.dart';
@@ -20,22 +21,6 @@ class SignIn extends StatefulWidget {
 class _SignInState extends State<SignIn> {
   bool check = false;
   bool showTermsValidate = false;
-  // final _emailController = TextEditingController();
-  // final _passwordController = TextEditingController();
-
-  // Future signIn() async {
-  //   await FirebaseAuth.instance.signInWithEmailAndPassword(
-  //     email: _emailController.text.trim(),
-  //     password: _passwordController.text.trim(),
-  //   );
-  // }
-
-  // @override
-  // void dispose() {
-  //   _emailController.dispose();
-  //   _passwordController.dispose();
-  //   super.dispose();
-  // }
 
   @override
   void initState() {
@@ -133,7 +118,10 @@ class _SignInState extends State<SignIn> {
                     height: 40,
                     width: 275,
                     child: GestureDetector(
-                      onTap: EmailPassword().signIn,
+                      onTap: () {
+                        Navigator.of(context).push(MaterialPageRoute(
+                            builder: ((context) => HomePage())));
+                      },
                       child: Container(
                           alignment: Alignment.center,
                           decoration: BoxDecoration(

@@ -5,4 +5,9 @@
          to allow setting breakpoints, to provide hot reload, etc.
     -->
     <uses-permission android:name="android.permission.INTERNET"/>
+    <receiver android:name="<ReceiverClassName>">
+    <intent-filter>
+        <action android:name="com.spotify.music.active"/>
+    </intent-filter>
+</receiver>
 </manifest>
